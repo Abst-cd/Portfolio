@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets'
+import sillycat from '../assets/images/sillycat.jpg'
+---
+<style>
+    .contact {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        color: blanchedalmond;
+    }
+    .git {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        color: blanchedalmond;
+        margin-top: 10px;
+        display: block;
+    }
+  
+</style>
+<Image src={sillycat} alt="sillycat" width={100} height={100} class="cattt" />
+
+<p class="contact">Contacto ejemplo.contacto</p>
+<a href="https://github.com/Abst-cd"class="git" target="_blank">My Github</a>

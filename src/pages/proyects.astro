@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets';
+import javalogo from '../assets/images/javalogo.png';
+import csslogo from '../assets/images/csslogo.png';
+---
+
+<style>
+    
+    .Estudiando {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: #ffffff;
+        animation: animacion 3duration timing-function delay iteration-count direction fill-mode;
+    }
+    .proyectostitulofuturamenteconanimacion {
+        color: rgb(119, 119, 133);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        animation: animacion 5duration timing-function delay iteration-count direction fill-mode;
+    }
+</style>
+<p class="proyectostitulofuturamenteconanimacion">PROYECTS I DID</p>
+<p class="Estudiando">Things im currently learning:</p>
+<ol class="Estudiando">
+    <li>FrameWork Astro</li>
+    <li>CSS</li>
+    <Image src={csslogo} alt="logocss" width={100} height={100}  />
+
+    <li>JS</li>
+    <li>SQL</li>
+    <li>Java</li>
+    <Image src={javalogo} alt="logojava" width={100} height={100}  />
+

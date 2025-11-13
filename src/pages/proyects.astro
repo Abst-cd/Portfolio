@@ -20,13 +20,19 @@ import csslogo from '../assets/images/csslogo.png';
         margin-top: 50px;
         animation: animacion 5duration timing-function delay iteration-count direction fill-mode;
     }
+    .logocss {
+  position: center;
+  top: 50px;   /* mueve hacia abajo */
+  left: 100px; /* mueve hacia la derecha */
+}
+ 
 </style>
 <p class="proyectostitulofuturamenteconanimacion">PROYECTS I DID</p>
 <p class="Estudiando">Things im currently learning:</p>
 <ol class="Estudiando">
     <li>FrameWork Astro</li>
     <li>CSS</li>
-    <Image src={csslogo} alt="logocss" width={100} height={100}  />
+    <Image src={csslogo} alt="logocss" width={100} height={100} class="logocss"/>
 
     <li>JS</li>
     <li>SQL</li>

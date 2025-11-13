@@ -15,9 +15,29 @@ import sillycat from '../assets/images/sillycat.jpg'
         margin-top: 10px;
         display: block;
     }
-  
-</style>
-<Image src={sillycat} alt="sillycat" width={100} height={100} class="cattt" />
+    .git{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: larger;
+    }
+  .Contactotitulo {
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+    animation: pulse 2s ease-in-out infinite;
+  }
 
-<p class="contact">Contacto ejemplo.contacto</p>
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.5; }
+  }
+  .contact {
+    text-align: center;
+  }
+
+</style>
+
+<Image src={sillycat} alt="sillycat" width={100} height={100} class="cattt" />
+<p class="Contactotitulo">Contact me!</p>
+<p class="contact" >Contacto ejemplo.contacto</p>
 <a href="https://github.com/Abst-cd"class="git" target="_blank">My Github</a>
